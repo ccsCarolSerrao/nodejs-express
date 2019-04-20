@@ -1,0 +1,37 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccsCarolSerrao/nodejs-express.git"
+  },
+  "author": "Carolina Carvalho Serrão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccsCarolSerrao/nodejs-express/issues"
+  },
+  "homepage": "https://github.com/ccsCarolSerrao/nodejs-express#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "nodemon": "^1.18.11"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": "2000",
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 4000
+    }
+  }
+}
