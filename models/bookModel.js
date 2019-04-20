@@ -5,9 +5,9 @@ const {Schema} = mongoose;
 const bookModel = new Schema(
     {
         title: {type: String},
-        aouthor: {type: String},
+        author: {type: String},
         genre: {type: String},
-        read: {type: Boolean, defaul: false},
+        read: {type: Boolean, default: false},
     }
 );
 
